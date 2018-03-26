@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>道聚城 购物车</title>
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/menu.css" />
+	<link rel="stylesheet" href="css/footer.css" />
+	<link rel="stylesheet" href="css/cart.css" />
+</head>
+<body>
+			<!--头部跟登录-->
+<div id="header">	
+	<!--头部-->
+	
+</div>			
+<div class="menu">
+	<!--menu文件-->
+	
+</div>
+
+<div class="location-box">
+	<div class="fl">
+	您现在的位置:><a href="">购物车</a>
+	</div>
+</div>
+
+  <div class="layout mainer clearfix">
+                <!--收货角色信息选择-->
+        <div class="payment-role ml22">
+            <h3 class="cart-title pt18">收货角色信息</h3>
+            <div class="mt24">
+                <div id="role_binded" class="bind-role clearfix" style="display:none;">
+                    <div class="fl">
+                        <span class="label">当前绑定角色：</span>
+                        <strong id="role-binded-area"></strong>
+                        <strong id="role-binded-server"></strong>
+                        <strong id="role-binded-rolename"></strong>
+                    </div>
+                    <a id="select-binded-role" href="javascript:;" class="fl btn-com btn-change" title="更换角色信息">更换角色信息</a>
+                </div>
+                <div class="pay-group role clearfix" id="step_1">
+                    <span class="label">选择游戏角色：</span>
+                    <ul>
+                        <li>
+                            <select name="area" id="area">
+                                 <option value="">请选择大区</option>
+                                 <option value="1">艾欧尼亚  电信</option>
+                                 <option value="2">比尔吉沃特  网通</option>
+                                 <option value="3">祖安 电信</option>
+                                 <option value="4">诺克萨斯  电信</option>
+                                 <option value="6">德玛西亚 网通</option>
+                                 <option value="5">班德尔城 电信</option>
+                                 <option value="7">皮尔特沃夫 电信</option>
+                                 <option value="8">战争学院 电信</option>
+                                 <option value="9">弗雷尔卓德 网通</option>
+                                 <option value="10">巨神峰 电信</option>
+                                 <option value="11">雷瑟守备 电信</option>
+                                 <option value="12">无畏先锋 网通</option>
+                                 <option value="13">裁决之地 电信</option>
+                                 <option value="14">黑色玫瑰 电信</option>
+                                 <option value="15">暗影岛 电信</option>
+                                 <option value="17">钢铁烈阳 电信</option>
+                                 <option value="16">恕瑞玛 网通</option>
+                                 <option value="19">均衡教派 电信</option>
+                                 <option value="18">水晶之痕 电信</option>
+                                 <option value="21">教育网专区</option>
+                                 <option value="22">影流 电信</option>
+                                 <option value="23">守望之海 电信</option>
+                                 <option value="20">扭曲丛林 网通</option>
+                                 <option value="24">征服之海 电信</option>
+                                 <option value="25">卡拉曼达 电信</option>
+                                 <option value="27">皮城警备 电信</option>
+                                 <option value="26">巨龙之巢 网通</option>
+                                 <option value="30">男爵领域 全网络</option>
+                            </select>
+                            <select name="iZone" id="iZone" onchange="changeEvent(this);">
+                                <option value="">请选择服务器</option>
+                            </select>
+                            <select  name="iRoleId" id="iRoleId">
+                                <option value="">请选择角色</option>
+                            </select>
+                            <span id="error_info" class="font_red"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                <!--收货角色信息选择 end-->
+        <div class="cartlist mt10 ml22 clearfix">
+            <h2 class="cart-title">商品信息</h2>           
+            <div class="tablebox" id="blk_cart_goods_table">
+                <table border="0" class="cart-list-table">
+                    <thead>
+                    <tr>
+                        <th scope="col" class="check-top"><input type="checkbox" />全选</th>
+                        <th scope="col">商品名称</th>
+                        <th scope="col">类型</th>
+                        <th scope="col">单价</th>
+                        <th scope="col">期限</th>
+                        <th scope="col" width="110px">数量</th>
+                        <th scope="col">优惠</th>
+                        <th scope="col">小计</th>
+                        <th scope="col">操作</th>
+                    </tr>
+                    </thead>
+	                <!--  -->
+	                <tbody id="cart_table">
+						<!--<tr style="border-top: 1px dotted #DEDFDE">
+							<th >
+								<input type="checkbox"/>
+							</th>
+							<td style="text-align: left;">
+								<a href=""><img src="img/20151208171230_76029.jpg" alt="" /></a>
+								<a href="">111</a>
+							</td>
+							<td>
+								<span>皮肤</span>
+							</td>
+							<td>
+								<span>30.00</span>Q币
+							</td>
+							<td>
+								永久
+							</td>
+							<td>
+								<a href="" class="jian">-</a>
+								<input type="text" value=1 class="shu">
+								<a href="" class="jia">+</a>
+							</td>
+							<td>
+								<span>无折扣</span>
+							</td>
+							<td>
+								<span>30.00</span> Q币
+							</td>
+							<td>
+								<a href="">关注</a>
+								<a href="">删除</a>
+							</td>
+						</tr>							-->
+	                </tbody>
+                </table>
+        	</div>
+        </div>
+		<div class="cart-benefit">
+			<h2>您的优惠信息</h2>
+			<div class="youhui">
+				<div>
+					<span>优惠券总量：<span>0</span></span>
+					<a href="">如何获得优惠券>></a>
+				</div>
+			</div>
+			<div class="fukuang">				
+				实付款：
+				<span>
+					<span id="shifu">15.00</span>Q币
+				</span>
+				<div>
+					<a href="">提交订单</a>
+				</div>
+			</div>
+		</div>
+		<div class="tishi">
+			<h3>温馨提示：</h3>
+			<ul>
+				<li><span>"LOL优惠券使用规则：[道具包]分类道具全场无法使用，每张优惠券的信息，请仔细核对以下信息：订单满减的金额是否符合要求、优惠券限定可用的道具范围。"</span></li>
+				<li>"购买成功后系统会自动发货，如发货失败24小时内会自动补发。"</li>
+				<li>"请确认游戏中是否存在购物车中的英雄或皮肤，如果存在，请勿重复购买。"</li>
+				<li>"请重新登录游戏查收物品。"</li>
+			</ul>
+		</div>
+ </div>
+
+
+
+<div class="footer">
+	<!--尾部-->
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>
