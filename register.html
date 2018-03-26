@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/register.css">
+  <title>注册</title>
+ </head>
+ <body>
+     <a href="#" class="logo">QQ</a>
+	 <div  class="side">
+	 </div>
+	 <div class="top">
+	   <a href="#" class="view">意见反馈</a>
+	   <a class="language">
+         简体中文&nbsp;
+		 <img src="img/down.png">
+	   <a href="#" class="email">邮箱账号</a>
+	   <div  class="qq-entry">
+	     <a href="#">QQ靓号</a>
+		 <img src="img/logo3.png">
+	   </div>
+	 </div>
+	 <div class="main">
+          <div class="from">
+		    <div class="welcome">欢迎注册QQ</div>
+			<div class="header right">
+			   <a href="#">免费靓号</a>
+			</div>
+			<div class="header">每一天，乐在沟通。</div>
+		       <input type="text" placeholder="昵称" class="input" id="uname">
+			   <input type="password" placeholder="密码" class="input" id="upwd">
+			   <input type="text" class="input phone" value="+86" class="input">
+			   <input type="text" class="input my-phone" placeholder="手机号码" id="phone">
+			   <br><span>可通过该手机号找回密码</span>
+			   <input type="submit" class="input submit" value="立即注册" id="tijiao">
+               <input type="checkbox"><span>同时开通QQ空间</span><br>
+			   <input type="checkbox"><span>我已阅读并同意相关服务条款和隐私政策</span>
+			   <p class="bottom">Copyright © 1998-2018Tencent All Rights Reserved</p>
+		  </div>
+	 </div>
+	 <script src="js/jquery-1.11.3.js"></script>
+	 <script src="js/register.js"></script>
+	 <script>
+	     var i=1;
+	    function task(){
+		  if(i<4) i++;else i=1;
+		  $(".side").css("background-image",`url(img/01-${i}.jpg)`)
+		}
+		task();
+		setInterval(task,3000);
+	 </script>
+ </body>
+</html>
