@@ -1,0 +1,183 @@
+
+.login{
+	width: 618px;
+	height:400px;
+	position:fixed;
+	top:40%;
+	left:50%;
+	margin:-183px 0 0 -311px;
+	background-color: #ffffff;
+	border:2px solid #eee;
+}
+.d_X{
+	position:absolute;
+	width: 50px;
+	height: 50px;
+	top:0;
+	right:0;
+	z-index:10000;
+	font-family:"微软雅黑";
+}
+.d_X>a{
+	width: 47px;
+	height: 20px;
+	background:url("../img/icon_3_tiny.png")no-repeat;
+	background-position:-221px -126px ;
+}
+.d_X>a:hover{
+	background-position: -221px -151px;
+}
+.d_form{
+	position:relative;
+	width: 618px;
+	height: 100%;
+	overflow:hidden;
+}
+.d_form>div{
+	top:0;
+	height: 100%;
+}
+.d_form>div>.tips{
+	position:relative;
+	height: 100%;
+	top:50%	;
+	margin-top:-150px;
+}
+.d_form>div>.tips>.tipstop{
+	position:relative;
+	margin:0 auto 20px;
+	margin-top:15px;
+	z-index:11;
+	color:#666;
+	text-align:center;
+	font-size:16px;
+}
+.d_form>div>.tips>.tipstop>.d_title1{
+	font-size:20px;
+	color:#333;
+	margin-bottom:16px;
+	text-align:center;
+}
+.d_form>div>.tips>.d_tipstop>.d_title2{
+	text-align:center;
+	color:#666;
+	font-size:16px;
+}
+.d_form>div>.tips>.tipstop>.d_title2>a{
+	color:#3481cf;
+}
+.d_form>div>.tips>.tipstop>.d_title2>a:hover{
+	color:#3481cf;
+}
+
+.d_form>div>.tips>.tipsbottom{
+	width: 272px;
+	height: 205px;
+	margin:0 auto;
+}
+.d_form>div>.tips>.tipsbottom>form{
+	margin:0;
+}
+.d_form>div>.tips>.tipsbottom>form>div.user,div.pwd,div.yzm{
+	width: 272px;
+	height: 55px;
+	position:relative;
+	border-radius:5px;
+	z-index:10;
+}
+
+.d_form>div>.tips>.tipsbottom>form>div>div{
+	width:272px;
+	height:42px;
+	background: url("../img/icon_3_tiny.png")no-repeat;
+	background-position:-1px -1px;
+}
+.d_form>div>.tips>.tipsbottom>form>div>div>input{
+	width: 258px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    height: 18px;
+    padding: 10px 0 10px 10px;
+    line-height: 18px;
+    border: none;
+    background: 0 0;
+    color: #333;
+    font-family: Verdana,Tahoma,Arial;
+    font-size:14px;
+}
+.d_form>div>.tips>.tipsbottom>form>.yzm>img{
+	display:block;
+	width:140px;
+	height:40px;
+}
+.d_form>div>.tips>.tipsbottom>form>.yzm>input{
+	width: 111px;
+    position: relative;
+    left:8px;
+    height: 18px;
+    padding: 10px 0 10px 10px;
+    line-height: 18px;
+    border:1px solid #D6D6D6;
+    border-radius:3px;
+    background: 0 0;
+    color: #333;
+    font-family: Verdana,Tahoma,Arial;
+    font-size:14px;
+}
+.d_form>div>.tips>.tipsbottom>form>.submit{
+	position:relative;
+	height:40px;
+	background-color: #86ce2f;
+}
+
+.d_form>div>.tips>.tipsbottom>form>.submit>a{
+	position:absolute;
+	left:0;
+	outline:0;
+	width: 100%;
+}
+.d_form>div>.tips>.tipsbottom>form>div>a:hover{
+	text-decoration:none;
+}
+.d_form>div>.tips>.tipsbottom>form>.submit>a>input{
+	width: 100%;
+    height: 40px;
+    line-height: 35px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Microsoft Yahei","微软雅黑",SimHei,"黑体","Hiragino Sans GB",STHeiTi,sans-serif;
+    color: #fff;
+    background: 0 0;
+    cursor: pointer;
+}
+.d_form>div>.login_form{
+	width: 100%;
+	height: 16px;
+	margin-bottom:8px;
+	position:absolute;
+	bottom:0;
+	text-align:right;
+	font-size:12px;
+}
+.d_form>div>.login_form>a{
+	color:#666;
+	margin:0 5px 0 5px;
+}
+.d_form>div>.login_form>span{
+	font-size:12px;
+	margin:0 5px;
+	color:#bfbfbf;
+}
+.bg_body{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background:rgba(230,245,255,.5);
+	margin:0;
+	display:block;
+	top:0;
+	left:0;
+	z-index:1000;
+}

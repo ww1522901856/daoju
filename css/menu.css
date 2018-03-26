@@ -1,0 +1,232 @@
+/*-------------------------menu----------------------------*/
+.menu{
+	min-height: 220px;
+	background: none;
+	position: relative;
+	min-width: 1190px;
+	height: auto;
+}
+.menu>.search{
+	width: 1190px;
+	height: 96px;
+	background:none;
+	margin:0 auto ;
+}
+.menu>.search>.searchbox{
+	height: 96px;
+	background:none;
+	margin: o auto;
+	width: 1190px;	
+}
+.menu>.search>.searchbox>.logbox{
+	float: left;
+	margin-top: 23px;
+	width: 280px;
+	height: 52px;
+}
+.menu>.search>.searchbox>.logbox>a{
+	display: block;
+	width: 280px;
+	height: 52px;
+	background:url("../img2/navico.png");
+	background-position: -670px -5px;
+	text-indent:-9999em;
+}
+.menu>.search>.searchbox>.sbar{
+	float: left;
+	margin: 20px 65px 0 100px;
+	width: 522px;
+	height: 51px;	
+}
+.menu>.search>.searchbox>.sbar>.stext{
+	width: 522px;
+	height: 51px;
+	background:url("../img2/navico.png") no-repeat;
+	background-position: -999px 0 ;
+	position: relative;
+}
+.menu>.search>.searchbox>.sbar>.stext>a{
+	position: absolute;
+	top: 2px;
+	right: 0;
+	z-index: 2;
+	width: 49px;
+	height: 46px;
+	background:url("../img2/navico.png");
+	background-position: -1558px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	border:none;
+	outline:none;
+}
+.menu>.search>.searchbox>.sbar>.stext>input{
+	float: left;
+	margin: 1px 0 0 6px;
+	width: 450px;
+	height: 18px;
+	padding: 14px 10px 15px 10px;
+	line-height: 18px;
+	border: 0;
+	background:none;
+	color: #9f9f9f;
+	font-size: 14px;
+	vertical-align: middle;
+	outline: none;
+}
+.menu>.search>.searchbox>.logogame{
+	float: left;
+	margin-top:23px;
+	width: 223px;
+	height: 59px;
+}
+.menu>.search>.searchbox>.logogame>a{
+	display: block;
+	width: 223px;
+	height: 59px;
+	background:url("../img2/navico.png") no-repeat;
+	background-position:-437px -5px;
+}
+.menu>.navico{
+	width: 1190px;
+	margin:0 auto;
+	height: 76px;
+	position:relative;
+	z-index:1;
+	background:url("../img2/navico.png") no-repeat;
+}
+.menu>.navico>div{
+	width: 1190px;
+	height: 76px;
+	margin:0 auto;
+	background:url("../img2/navico.png") no-repeat;
+	background-position: -5px -187px;
+}
+.menu>.navico>div>ul{
+	overflow: hidden;
+	width: 940px;
+	height: 76px;
+	position:relative;
+	float: left;
+}
+.menu>.navico>div>ul>li{
+	float:left;
+	width: 134px;
+	height: 76px;
+	background:url("../img2/navico.png") no-repeat;
+	background-position: 152px 76px;
+}
+.menu>.navico>div>ul>li:nth-child(1){
+	background:url("../img2/navico.png") no-repeat;
+	background-position: -275px -5px;
+}
+.menu>.navico>div>ul>li:nth-child(1)>a{
+	font-weight: bold;
+	color:#fef7ec;
+	text-shadow:1px 3px 3px #bf4d00;
+	position:relative;
+	width: 134px;
+	height: 76px;
+	text-align:center;
+	line-height: 76px;
+	font-size: 18px;
+	display:block;
+}
+.menu>.navico>div>ul>li>a{
+	width: 134px;
+    height: 76px;
+    display: block;
+    text-align: center;
+    line-height: 76px;
+    font-size: 18px;
+    color: #9f9f9f;
+    position: relative;
+}
+.menu>.navico>div>ul>li>a:hover{
+	color:#ff5900;
+	text-decoration:none;
+}
+.menu>.navico>div>ul>li:nth-child(1)>a:hover{
+	color:#fef7ec;
+}
+.menu>.navico>div>div{
+	width: 192px;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    float:right;
+}
+.menu>.navico>div>div>a{
+	width: 192px;
+    color: #ff5900;
+    text-indent: 18px;
+}
+.menu>.navico>div>div>a:hover{
+	text-decoration:none;
+}
+.menu>.navico>div>div>a>i{
+	position: absolute;
+    top: 0;
+    right: 10px;
+    z-index: 10;
+    width: 60px;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    overflow: hidden;
+    text-indent: 0;
+    color: #ff5900;
+}
+.menu>.navico>div>div>a>s{
+	position: absolute;
+    top: 26px;
+    left: 36px;
+    z-index: 10;
+    width: 28px;
+    height: 24px;
+    display: block;
+    background:url("../img2/navico.png") no-repeat;
+     background-position: -237px -5px;
+}
+.menu>.subnav{
+	width: 1190px;
+	min-height: 48px;
+	background:none;
+	line-height:48px;
+	visibility: visible;
+	text-align:center;
+	border:none;
+	margin: 0 auto;
+}
+.menu>.subnav>ul{
+	height:48px;
+	overflow:hidden;
+}
+.menu>.subnav>ul>li{
+	float:left;
+	width: 118px;
+}
+.menu>.subnav>ul>li>a{
+	color:#9f9f9f;
+	height: 48px;
+	display:block;
+	width: 118px;
+	font-size:14px;
+	text-align:center;	
+}
+.menu>.subnav>ul>li>a:hover{
+	color:#fff;
+	text-decoration: none;
+}
+.menu>.subnav>ul>li:first-child{
+	width:152px;
+}
+.menu>.subnav>ul>li:first-child>a{
+	width:152px;
+}
+
+
+/*-------------------------menu----------------------------*/

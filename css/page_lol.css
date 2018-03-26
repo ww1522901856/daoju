@@ -1,0 +1,1152 @@
+body{
+	background: #f3f4f6;
+	color:#2e2e2e;
+	font:12px/1.5 arial,"\5FAE\8F6F\96C5\9ED1",sans-serif;
+	width: 100%;
+}
+.main{
+	background:#f3f4f6 url("../img2/bg-index.jpg") no-repeat top center;
+	
+}
+.layout{
+	width: 1190px;
+	margin:0 auto;
+	background:#f3f4f6 url("../img2/cont-index.jpg") no-repeat;
+}
+#bg a{
+	height: 30px;
+	color:#9f9f9f;	
+}
+#bg{
+	background:none;
+}
+div.game_table{
+	background:none;
+	border:1px solid #292b2e;
+}
+i{
+	color:#303034;
+}
+a:hover{
+	color:#9f9f9f;
+	text-decoration:underline;
+}
+
+/*-------------------------menu----------------------------*/
+
+.menu{
+	min-height: 220px;
+	background: none;
+	position: relative;
+	min-width: 1190px;
+	height: auto;
+}
+.menu>.search{
+	height: 96px;
+	background:none;
+}
+.menu>.search>.searchbox{
+	height: 96px;
+	background:none;
+	margin: o auto;
+	width: 1190px;	
+}
+.menu>.search>.searchbox>.logbox{
+	float: left;
+	margin-top: 23px;
+	width: 280px;
+	height: 52px;
+}
+.menu>.search>.searchbox>.logbox>a{
+	display: block;
+	width: 280px;
+	height: 52px;
+	background:url("../img2/navico.png");
+	background-position: -670px -5px;
+	text-indent:-9999em;
+}
+.menu>.search>.searchbox>.sbar{
+	float: left;
+	margin: 20px 65px 0 100px;
+	width: 522px;
+	height: 51px;	
+}
+.menu>.search>.searchbox>.sbar>.stext{
+	width: 522px;
+	height: 51px;
+	background:url("../img2/navico.png") no-repeat;
+	background-position: -999px 0 ;
+	position: relative;
+}
+.menu>.search>.searchbox>.sbar>.stext>a{
+	position: absolute;
+	top: 2px;
+	right: 0;
+	z-index: 2;
+	width: 49px;
+	height: 46px;
+	background:url("../img2/navico.png");
+	background-position: -1558px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	border:none;
+	outline:none;
+}
+.menu>.search>.searchbox>.sbar>.stext>input{
+	float: left;
+	margin: 1px 0 0 6px;
+	width: 450px;
+	height: 18px;
+	padding: 14px 10px 15px 10px;
+	line-height: 18px;
+	border: 0;
+	background:none;
+	color: #9f9f9f;
+	font-size: 14px;
+	vertical-align: middle;
+	outline: none;
+}
+.menu>.search>.searchbox>.logogame{
+	float: left;
+	margin-top:23px;
+	width: 223px;
+	height: 59px;
+}
+.menu>.search>.searchbox>.logogame>a{
+	display: block;
+	width: 223px;
+	height: 59px;
+	background:url("../img2/navico.png") no-repeat;
+	background-position:-437px -5px;
+}
+.menu>.navico{
+	width: 1190px;
+	margin:0 auto;
+	height: 76px;
+	position:relative;
+	z-index:1;
+	background:url("../img2/navico.png") no-repeat;
+}
+.menu>.navico>div{
+	width: 1190px;
+	height: 76px;
+	margin:0 auto;
+	background:url("../img2/navico.png") no-repeat;
+	background-position: -5px -187px;
+}
+.menu>.navico>div>ul{
+	overflow: hidden;
+	width: 940px;
+	height: 76px;
+	position:relative;
+	float: left;
+}
+.menu>.navico>div>ul>li{
+	float:left;
+	width: 134px;
+	height: 76px;
+	background:url("../img2/navico.png") no-repeat;
+	background-position: 152px 76px;
+}
+.menu>.navico>div>ul>li:nth-child(1){
+	background:url("../img2/navico.png") no-repeat;
+	background-position: -275px -5px;
+}
+.menu>.navico>div>ul>li:nth-child(1)>a{
+	font-weight: bold;
+	color:#fef7ec;
+	text-shadow:1px 3px 3px #bf4d00;
+	position:relative;
+	width: 134px;
+	height: 76px;
+	text-align:center;
+	line-height: 76px;
+	font-size: 18px;
+	display:block;
+}
+.menu>.navico>div>ul>li>a{
+	width: 134px;
+    height: 76px;
+    display: block;
+    text-align: center;
+    line-height: 76px;
+    font-size: 18px;
+    color: #9f9f9f;
+    position: relative;
+}
+.menu>.navico>div>ul>li>a:hover{
+	color:#ff5900;
+	text-decoration:none;
+}
+.menu>.navico>div>ul>li:nth-child(1)>a:hover{
+	color:#fef7ec;
+}
+.menu>.navico>div>div{
+	width: 192px;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    float:right;
+}
+.menu>.navico>div>div>a{
+	width: 192px;
+    color: #ff5900;
+    text-indent: 18px;
+}
+.menu>.navico>div>div>a:hover{
+	text-decoration:none;
+}
+.menu>.navico>div>div>a>i{
+	position: absolute;
+    top: 0;
+    right: 15px;
+    z-index: 10;
+    width: 60px;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    overflow: hidden;
+    text-indent: 0;
+    color: #ff5900;
+}
+.menu>.navico>div>div>a>s{
+	position: absolute;
+    top: 26px;
+    left: 36px;
+    z-index: 10;
+    width: 28px;
+    height: 24px;
+    display: block;
+    background:url("../img2/navico.png") no-repeat;
+     background-position: -237px -5px;
+}
+.menu>.subnav{
+	width: 1190px;
+	min-height: 48px;
+	background:none;
+	line-height:48px;
+	visibility: visible;
+	text-align:center;
+	border:none;
+}
+.menu>.subnav>ul{
+	height:48px;
+	overflow:hidden;
+}
+.menu>.subnav>ul>li{
+	float:left;
+	width: 118px;
+}
+.menu>.subnav>ul>li>a{
+	color:#9f9f9f;
+	height: 48px;
+	display:block;
+	width: 118px;
+	font-size:14px;
+	text-align:center;	
+}
+.menu>.subnav>ul>li>a:hover{
+	color:#fff;
+	text-decoration: none;
+}
+.menu>.subnav>ul>li:first-child{
+	width:152px;
+}
+.menu>.subnav>ul>li:first-child>a{
+	width:152px;
+}
+
+
+/*-------------------------menu----------------------------*/
+
+/*-------------------------mainer----------------------------*/
+.mainer{
+	width: 1190px;
+	height: 402px;
+}
+.mainer>div{
+	width: 1190px;
+	height: 374px;
+}
+.mainer>div>.left1{
+	float: left;
+	width: 222px;
+	height: 374px;
+}
+.mainer>div>.left1>.loginbox{
+	background:#fafbfc;
+}
+.mainer>div>.left1>.loginbox>.top1{
+	width:222px;
+	height: 90px;
+}
+.mainer>div>.left1>.loginbox>.top1>div{	
+    margin: 0 5px;
+    padding: 17px 10px;
+    padding-right: 0;
+    height: 56px;
+    overflow: hidden;
+}
+.mainer>div>.left1>.loginbox>.top1>div>div{
+	float:left;
+	margin-top:3px;
+}
+.mainer>div>.left1>.loginbox>.top1>div>div>img{
+	display:block;
+	width: 46px;
+	height:46px;
+}
+.mainer>div>.left1>.loginbox>.top1>div>p{
+	margin-left: 55px;
+    line-height: 18px;
+    color:#555;
+}
+.mainer>div>.left1>.loginbox>.top1>div>p>a{
+	color:#1c8bde;
+}
+.mainer>div>.left1>.loginbox>.top1>div>p>a:hover{
+	text-decoration: none;
+}
+.mainer>div>.left1>.loginbox>.bottom{
+	padding-top: 7px;
+    margin: 0 auto;
+    width: 202px;
+    height: 58px;
+    background: #f3f4f6;
+    color: #555;
+    position: relative;
+}
+.mainer>div>.left1>.loginbox>.bottom>div>p{
+	float:left;
+	margin-left:10px;
+	font-size:12px;
+	line-height:26px;
+	height:26px;
+	width:auto;	
+}
+.mainer>div>.left1>.loginbox>.bottom>a{
+	position: absolute;
+    top: 38px;
+    right: 10px;
+    z-index: 1;
+    color: #1f95f7;
+}
+.mainer>div>.left1>.loginbox>.bottom>a:hover{
+	text-decoration: none;
+}
+.mainer>div>.left1>.loginbox>ul{
+	margin-top: 6px;
+    padding-bottom: 14px;
+    color: #cfcfcf;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    height: auto;
+    max-height: 100px;
+    display: block;
+    overflow: hidden;
+}
+.mainer>div>.left1>.loginbox>ul>li{
+	line-height: 26px;
+    padding-left: 42px;
+    position: relative;
+}
+.mainer>div>.left1>.loginbox>ul>li>a{
+	color:#555;
+}
+.mainer>div>.left1>.loginbox>ul>li>a>i{
+	position: absolute;
+    top: 6px;
+    left: 15px;
+    z-index: 10;
+    width: 19px;
+    height: 16px;
+    display: block;
+    background: url("../img2/indexico.png");
+    background-position: -5px -825px;
+}
+.mainer>div>.left1>.loginbox>ul>li:last-child>a>i{
+	background-position: -5px -718px;
+}
+.mainer>div>.left1>.notice-list{
+	height: 145px;
+    padding: 0 0 0 10px;
+    width: 212px;
+    overflow: hidden;
+    background: #fafbfc;
+}
+.mainer>div>.left1>.notice-list>div{
+	margin-bottom: 3px;
+    border-bottom: 1px solid #ececec;
+    height: 33px;
+    line-height: 33px;
+}
+.mainer>div>.left1>.notice-list>div>h5{
+	float:left;
+	font-size:14px;
+	color:#3a3f4a;
+}
+.mainer>div>.left1>.notice-list>div>a{
+	float: right;
+    width: 36px;
+    color: #1994eb;
+    cursor: pointer;
+    margin-top: 6px;
+    padding: 5px 0;
+    line-height: 12px;
+    height: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+.mainer>div>.left1>.notice-list>ul>li{
+	padding: 5px 0;
+    line-height: 12px;
+    height: 13px;
+    overflow: hidden;
+    color: #9f9f9f;
+}
+.mainer>div>.left1>.notice-list>ul>li>a{
+	color: #555;
+    float: left;
+    width: 160px;
+    padding: 5px 0;
+    line-height: 12px;
+    height: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+.mainer>div>.left1>.notice-list>ul>li>i{
+	float: right;
+    width: 40px;
+    font-style: normal;
+    color: #8e8e8e;
+    text-align: left;
+    padding: 6px 0;
+    line-height: 12px;
+    height: 12px;
+}
+.mainer>div>.center1{
+	float: left;
+	position: relative;
+	width: 770px;
+    height: 372px;
+    margin-left: 6px;
+    background: #27292b;
+    z-index: 10;
+    overflow: hidden;
+}
+.mainer>div>.center1>.slide{
+	width: 770px;
+    height: 372px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    position: relative;
+}
+.mainer>div>.center1>.slide>.pic{
+	position:absolute;
+	top:0;
+	width:3080px;
+	height:330px;
+}
+.mainer>div>.center1>.slide>.pic>.dev{
+    float: left;
+    position: relative;
+    width: 770px;
+    height: 330px;
+}
+.mainer>div>.center1>.slide>.dot{
+    position: absolute;
+    width: 770px;
+    height: 42px;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+.mainer>div>.center1>.slide>.dot>a{
+	display:block;
+	width: 191px;
+	float:left;
+	height:42px;
+	overflow:hidden;
+	background: #e8e8e8;
+	color:#606167;
+	text-align:center;
+	font-size:14px;
+	line-height:42px;
+	border-right:1px solid #fff;
+}
+.mainer>div>.center1>.slide>.dot>a:hover{
+	text-decoration: none;
+}
+.mainer>div>.center1>.slide>.dot>a.curr{
+	color:#fff;
+	background: #36ab87;
+}
+.mainer>div>.right1{
+	overflow:hidden;
+	width:187px;
+	float:right;
+}
+.mainer>div>.right1>a{
+	display: block;
+    width: 186px;
+    height: 83px;
+    line-height: 83px;
+    text-align: center;
+    font-size: 22px;
+    color: #efd4c9;
+    text-indent: 30px;
+    background:url("../img2/indexico.png");
+}
+.mainer>div>.right1>a:first-child{	
+	background-position: -6px -302px;
+}
+.mainer>div>.right1>a:nth-child(2){
+	background-position: -6px -476px;
+}
+.mainer>div>.right1>a:hover{
+	text-decoration: none;
+}
+.mainer>div>.right1>div{
+	width: 187px;
+    height: 208px;
+    background: url("../img2/indexico.png");
+    background-position: -5px -5px;
+}
+.mainer>div>.right1>div>img{
+	display: block;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    padding-top: 26px;
+}
+.mainer>div>.right1>div>p{
+	width: 187px;
+    text-align: center;
+    margin-top: 9px;
+    font-size: 16px;
+    color: #333;
+    height: 16px;
+    line-height: 16px;
+}
+
+
+.listcont>.hotbox{
+	margin-bottom:40px;
+	width: 1190px;
+	height:843px;
+}
+.listcont>.hotbox>.leftbar{
+	background:red;
+}
+.listcont>.hotbox>.leftbar{	
+	background: #fafbfc;
+    position: relative;
+    width: 952px;
+    height:843px;
+    z-index: 2;
+    float:left;
+}
+.listcont>.hotbox>.leftbar>ul{
+	margin-left: 18px;
+    width: 915px;
+    height: 47px;
+    border-bottom: 2px solid #f3f4f6;
+    text-align: center;
+}
+.listcont>.hotbox>.leftbar>ul>li{
+	float: left;
+    width: 93px;
+    height: 47px;
+    line-height: 54px;
+    border-bottom: 2px solid #f3f4f6;
+    font-size: 18px;
+}
+.listcont>.hotbox>.leftbar>ul>li:nth-child(1){
+	font-weight: bold;
+    border-color: #36ab87;
+}
+.listcont>.hotbox>.leftbar>ul>li:nth-child(1)>a{
+	color:#555;
+	display: block;
+    width: 93px;
+    height: 47px;
+    line-height: 54px;
+}
+.listcont>.hotbox>.leftbar>ul>li:nth-child(2)>a{
+	display: block;
+    width: 93px;
+    height: 47px;
+    line-height: 54px;
+    color: #b8b8b8;
+}
+.listcont>.hotbox>.leftbar>.morebox{
+	position: absolute;
+    right: 18px;
+    top: 0;
+    height: 50px;
+    line-height: 50px;
+    width: 366px;
+}
+.listcont>.hotbox>.leftbar>.morebox>a{
+	float:right;
+	color: #1994eb;
+    cursor: pointer;
+}
+.listcont>.hotbox>.leftbar>.morebox>a:hover{
+	text-decoration:none;
+}
+.listcont>.hotbox>.leftbar>.platebox{
+	width: 952px;
+	height:778px;
+}
+.listcont>.hotbox>.leftbar>.platebox>div{
+	position: relative;
+    margin: 15px 0 1px 18px;
+    z-index: 2;
+}
+.listcont>.hotbox>.leftbar>.platebox>div>dl{
+	margin: 0 13px 19px 13px;
+    zoom: 1;
+    float: left;
+    width: 202px;
+    height: 370px;
+    display: block;
+    position: relative;
+    color: #606060;
+    background:url("../img2/indexico.png") no-repeat;
+    background-position: -237px -6px;
+    z-index: 11;
+    cursor: default;
+}
+.listcont>.hotbox>.leftbar>.platebox>div>dl>dt{
+	float: left;
+    margin-bottom: 11px;
+    width: 202px;
+    height: 235px;
+    display: block;
+    overflow: hidden;
+}
+.listcont>.hotbox>.leftbar>.platebox>div>dl>dt>a{
+	outline:none;
+}
+.listcont>.hotbox>.leftbar>.platebox>div>dl>dt>a>img{
+	margin: 23px auto 0;
+    display: block;
+    width: 116px;
+    height: 212px;
+}
+.listcont>.hotbox>.leftbar>.platebox>div>dl>dd{
+	float: left;
+    margin: 0 auto;
+    width: 202px;
+    line-height: 17px;
+    text-align: center;
+}
+.listcont>.hotbox>.leftbar>.platebox>div>dl>dd>a{
+	color: #2e2e2e;
+    width: 200px;
+    height: 24px;
+    line-height: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+}
+.listcont>.hotbox>.leftbar>.platebox>div>dl>dd>a:hover{
+	text-decoration: none;
+}
+.listcont>.hotbox>.leftbar>.platebox>div>dl>dd>div>span{
+	font-weight: bold;
+	color: #ff5900;
+    font-size: 14px;
+}
+.listcont>.hotbox>.leftbar>.platebox>div>dl>dd>div:last-child{
+	margin: 10px auto 0;
+    width: 124px;
+    height: 32px;
+}
+.listcont>.hotbox>.leftbar>.platebox>div>dl>dd>div:last-child>a{
+	width: 124px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background: #36ab87;
+    color: #fff;
+    display: block;
+}
+.listcont>.hotbox>.leftbar>.platebox>div>dl>dd>div:last-child>a:hover{
+	text-decoration: none;
+}
+.listcont>.hotbox>.leftbar>.platebox>div>dl:hover{
+	background-position: -237px -385px;
+}
+.listcont>.hotbox>.rightbar{
+	float:right;
+	width: 228px;
+    height:840px;
+    overflow: hidden;
+}
+.listcont>.hotbox>.rightbar>div{
+	width: 228px;
+	height: 415px;
+	padding: 0 18px 8px 0;
+    background: #fafbfc;
+    margin-bottom: 10px;
+}
+.listcont>.hotbox>.rightbar>div>h3{
+	margin-left: 18px;
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+    height: 46px;
+    border-bottom: 2px solid #f3f4f6;
+    line-height: 54px;
+    text-indent: 6px;
+    position: relative;
+}
+.listcont>.hotbox>.rightbar>div>h3>span{
+	position: absolute;
+    top: 47px;
+    left: 0;
+    z-index: 1;
+    width: 80px;
+    height: 2px;
+    background: #36ab87;
+    display: block;
+}
+.listcont>.hotbox>.rightbar>.top2>ul{
+	width: 196px;
+	height: 359px;
+	margin-left:14px;
+}
+.listcont>.hotbox>.rightbar>.top2>ul>li{
+	min-height: 71px;
+    height: auto;
+    border-bottom: 1px dashed #e7e7e7;
+    transition: all .2s linear;
+}
+.listcont>.hotbox>.rightbar>.top2>ul>li>a{
+	display: block;
+    width: 100%;
+    padding-top: 16px;
+    position: relative;
+    height:74px;
+}
+.listcont>.hotbox>.rightbar>.top2>ul>li>a>div:nth-child(1){
+	position: absolute;
+    top: 8px;
+    left: 0;
+    z-index: 1;
+    display: block;
+    width: 20px;
+    height: 24px;  
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    background: url("../img2/comico.png") no-repeat;
+	background-position: -5px -592px;
+}
+.listcont>.hotbox>.rightbar>.top2>ul>li>a>div:nth-child(2){
+	float:left;
+	margin-left:3px;
+	width: 76px;
+	height: 54px;
+}
+.listcont>.hotbox>.rightbar>.top2>ul>li>a>div:nth-child(2)>img{
+	display: block;
+    width: 76px;
+    height: 54px;
+}
+.listcont>.hotbox>.rightbar>.top2>ul>li>a>div:nth-child(3){
+	float:right;
+	width: 108px;
+    overflow: hidden;
+    color: #222;
+}
+.listcont>.hotbox>.rightbar>.top2>ul>li>a>div:nth-child(3)>p:nth-child(1){
+	width: 108px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 14px;
+    line-height: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.listcont>.hotbox>.rightbar>.top2>ul>li>a>div:nth-child(3)>p:nth-child(2){
+	margin-top: 8px;
+    height: 15px;
+}
+.listcont>.hotbox>.rightbar>.top2>ul>li>a>div:nth-child(3)>p:nth-child(3){
+	margin-top: 3px;
+    color: #333;
+    height: 18px;
+    padding-bottom: 15px;
+}
+
+.listcont>.hotbox>.rightbar>.bottom2>ul{
+	width: 196px;
+	height: 359px;
+	margin-left:14px;
+}
+.listcont>.hotbox>.rightbar>.bottom2>ul>li{
+	min-height: 71px;
+    height: auto;
+    border-bottom: 1px dashed #e7e7e7;
+    transition: all .2s linear;
+}
+.listcont>.hotbox>.rightbar>.bottom2>ul>li>a{
+	display: block;
+    width: 100%;
+    padding-top: 16px;
+    position: relative;
+    height:74px;
+}
+.listcont>.hotbox>.rightbar>.bottom2>ul>li>a>div:nth-child(1){
+	float:left;
+	margin-left:3px;
+	width: 76px;
+	height: 54px;
+}
+.listcont>.hotbox>.rightbar>.bottom2>ul>li>a>div:nth-child(1)>img{
+	display: block;
+    width: 76px;
+    height: 54px;
+}
+.listcont>.hotbox>.rightbar>.bottom2>ul>li>a>div:nth-child(2){
+	float:right;
+	width: 108px;
+    overflow: hidden;
+    color: #222;
+}
+.listcont>.hotbox>.rightbar>.bottom2>ul>li>a>div:nth-child(2)>p:nth-child(1){
+	width: 108px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 14px;
+    line-height: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.listcont>.hotbox>.rightbar>.bottom2>ul>li>a>div:nth-child(2)>p:nth-child(2){
+	margin-top: 8px;
+    height: 15px;
+}
+.listcont>.hotbox>.rightbar>.bottom2>ul>li>a>div:nth-child(2)>p:nth-child(3){
+	margin-top: 3px;
+    color: #333;
+    height: 18px;
+    padding-bottom: 15px;
+}
+.listcont>.zblist{
+	margin-bottom: 40px;
+    background: #fafbfc;
+    width: 1190px;
+    height:376px;
+    z-index: 1;
+    position: relative;
+}
+.listcont>.zblist>h3{
+	margin-left: 18px;
+    width: 1155px;
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+    height: 47px;
+    line-height: 54px;
+    border-bottom: 2px solid #f3f4f6;
+    text-indent: 10px;
+    position: relative;
+}
+
+
+.listcont>.zblist>h3>span{
+	position: absolute;
+    top: 47px;
+    left: 0;
+    z-index: 1;
+    width: 92px;
+    height: 2px;
+    background: #36ab87;
+    display: block;
+}
+.listcont>.zblist>div{
+	position: absolute;
+    right: 18px;
+    top: 0;
+    height: 50px;
+    line-height: 50px;
+    width: 366px;
+}
+.listcont>.zblist>div>a{
+	float: right;
+	color: #1994eb;
+    cursor: pointer;
+}
+.listcont>.zblist>ul{
+	width: 1155px;
+    height:315px;
+    margin: 0 auto;
+    margin-top: 12px;
+    position: relative;
+}
+.listcont>.zblist>ul>li{
+	margin: 0 12px 20px 10px;
+    float: left;
+    width: 266px;
+    height: 295px;
+    display: block;
+}
+.listcont>.zblist>ul>li>a{
+	display: block;
+    width: 100%;
+    height: 295px;
+}
+.listcont>.zblist>ul>li>a>div:first-child{
+	width: 266px;
+    height: 254px;
+    overflow: hidden;
+    border: 1px solid #f0f0f0;
+}
+.listcont>.zblist>ul>li>a>div:first-child>img{
+	width: 266px;
+	height: 254px;
+}
+.listcont>.zblist>ul>li>a>div:last-child{
+	margin-top: 14px;
+    width: 100%;
+    height: auto;
+    line-height: 15px;
+    font-size: 14px;
+}
+.listcont>.zblist>ul>li>a>div:last-child>p:first-child{
+	float: left;
+	width: 200px;
+    color: #555;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 15px;
+}
+.listcont>.zblist>ul>li>a>div:last-child>p:last-child{
+	color:#ff5900;
+	font-weight:bold;
+	float:right;
+}
+
+
+
+.listcont>.adlist{
+    background: #fafbfc;
+    width: 1190px;
+    height:301px;
+    z-index: 1;
+    position: relative;
+}
+.listcont>.adlist>h3{
+	margin-left: 18px;
+    width: 1155px;
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+    height: 47px;
+    line-height: 54px;
+    border-bottom: 2px solid #f3f4f6;
+    text-indent: 10px;
+    position: relative;
+}
+
+.listcont>.adlist>h3>span{
+	position: absolute;
+    top: 47px;
+    left: 0;
+    z-index: 1;
+    width: 92px;
+    height: 2px;
+    background: #36ab87;
+    display: block;
+}
+.listcont>.adlist>div{
+	position: absolute;
+    right: 18px;
+    top: 0;
+    height: 50px;
+    line-height: 50px;
+    width: 366px;
+}
+.listcont>.adlist>div>a{
+	float: right;
+	color: #1994eb;
+    cursor: pointer;
+}
+.listcont>.adlist>ul{
+	width: 1160px;
+    height:240px;
+    margin: 0 auto;
+    margin-top: 12px;
+    position: relative;
+}
+.listcont>.adlist>ul>li{
+	margin: 0 6px 20px 0;
+    float: left;
+    width: 380px;
+    height: 220px;
+    display: block;
+}
+.listcont>.adlist>ul>li>div{
+	position: relative;
+    width: 380px;
+    height: 294px;
+    cursor: pointer;
+    display: block;
+}
+.listcont>.adlist>ul>li>div>a{
+	width: 380px;
+	height: 148px;
+	display:block;
+}
+.listcont>.adlist>ul>li>div>a>div{
+	position: relative;
+    width: 380px;
+    height: 148px;
+}
+.listcont>.adlist>ul>li>div>a>div>div:first-child{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 80px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+.listcont>.adlist>ul>li>div>a>div>div:first-child>div:first-child{
+	position: absolute;
+    top: 0;
+    left: -3px;
+    height: 20px;
+    width: 120px;
+    background: url(../img2/actico.png) no-repeat;
+    background-position: 0 -137px;
+    opacity: .85;
+}
+.listcont>.adlist>ul>li>div>a>div>div:first-child>div:last-child{
+	position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: 8;
+    min-width: 80px;
+    width: auto;
+    white-space: nowrap;
+    text-align: left;
+}
+.listcont>.adlist>ul>li>div>a>div>div:nth-child(2){
+	position: absolute;
+    right: 20px;
+    top: 0;
+    width: 48px;
+    height: 53px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background: url(../img2/actico.png) no-repeat;
+    background-position: 0 -33px;
+    z-index: 5;
+}
+.listcont>.adlist>ul>li>div>a>div>img{
+	width: 380px;
+}
+.listcont>.adlist>ul>li>div>div{
+    height: 70px;
+    line-height: 25px;
+    width: 378px;
+    border: 1px solid #d7dde4;
+    border-top: 0;
+    background: #fff;
+    position: relative;
+}
+.listcont>.adlist>ul>li>div>div>div:first-child{
+	float: left;
+	margin-top:10px;
+	margin-left: 15px;
+    color: #f74a4a;
+    font-size: 14px;
+    font-weight: bold;
+    width: 365px;
+}
+.listcont>.adlist>ul>li>div>div>p{
+	float:left;
+	margin-left:15px;
+}
+.listcont>.adlist>ul>li>div>div>div:last-child{
+	position: absolute;
+    bottom: 10px;
+    right: 15px;
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    color: #999;
+    font-size: 14px;
+    z-index: 6;
+}
+.listcont>.adlist>ul>li>div>div>div:last-child>i{
+	display: block;
+	background: url(../img2/actico.png) no-repeat;
+    background-position: 0 -168px;
+    text-indent: -999em;
+    width: 16px;
+    height: 16px;
+    margin: 3px 5px 0 15px;
+    float: left;
+}
+.listcont>.adlist>ul>li>div>div>div:last-child>span{
+	display:block;
+	float: left;
+	line-height:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

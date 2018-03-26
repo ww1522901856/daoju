@@ -1,0 +1,34 @@
+body,div,ul,li,p,input,th,td,h1,h2,h4,h5,h3,h6,ol,dl,dt,dd{
+	margin:0;
+	padding:0;
+	font-family:"Microsoft YaHei";
+	list-style:none;
+}
+body{
+	min-width:1000px;
+	font:12px "Microsoft YaHei";
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	color:#F74A4A;
+	text-decoration:underline;
+}
+a:visited{
+	text-decoration:underline;
+}
+div.main{
+	width:1060px;
+	margin:0 auto;
+}
+img{
+	vertical-align:middle;
+	border:0;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
