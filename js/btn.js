@@ -1,0 +1,11 @@
+(()=>{
+	$("#btnnn").click(function(){
+		$("#login").css("display","block");	
+	})
+	$("#btnnnn").click(function(){
+		$("#login").css("display","block");
+	})
+	$("#shanchu").click(function(){
+		$("#login").css("display","none");
+	})
+})();
